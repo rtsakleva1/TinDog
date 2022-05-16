@@ -1,0 +1,161 @@
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+body{
+    font-family: "Montserrat" ,'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: "Montserrat-black";
+    font-size:4rem;
+    line-height: 1;
+}
+
+.download-btn{
+    margin:15% 0;
+}
+
+.logo{
+    width:2rem;
+}
+
+.container-fluid{
+    width:100%;
+}
+
+/* Navigation bar >  highlight the text and press Ctrl + / to comment  */ 
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size:2.2rem;
+    font-weight: bold;
+}
+
+
+
+.row{
+    margin:auto;
+    padding:7% ;
+}
+
+
+.dogpic{
+    width:40vh;
+    height:40vh;
+    border:1vh solid #ff4c68;
+}
+
+.feature-box{
+    text-align: center;
+    font-size:1rem;
+    font-weight: bold;
+}
+
+h2{
+    font-family: "Montserrat-bold";
+    color: #ff4c68;
+    font-size: 3rem;
+    padding:10% 0 5% 0;
+
+}
+
+h3{
+    font-family:"Montserrat-bold";
+    font-size:2rem;
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+
+
+p{
+    color: #8f8f88;
+    font-size: 3vh;
+    font-family:"Montserrat-bold";
+
+}
+
+#testimonials{
+    text-align:center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.carousel-item{
+    padding:7% 15%;
+
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:3vh;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    text-align: center;
+}
+
+#cta{
+    background-color: #ff4c68;
+    min-height:40vh;
+    text-align: center;
+    padding:12%;
+
+    
+}
+
+h4{
+    color:#ff4c68;
+    font-size: 2rem;
+    letter-spacing: 0.2ream;
+}
+
+.card{
+   justify-content: left;
+   margin:30% 10%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background:none;
+  border:none;
+}
+
+#footer{
+    text-align: center;
+    margin-top:10vh;
+
+}
+
+
+ion-icon{
+    width:4vh;
+    height:4vh;
+}
+
+
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .iphone-pic{
+        position:static;
+        transform:rotate(20px);
+    }
+}
